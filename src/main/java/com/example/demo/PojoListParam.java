@@ -13,4 +13,11 @@ public class PojoListParam {
     public void setIn(List<String> in) {
         this.in = in;
     }
+
+    @Override
+    public String toString() {
+        return "PojoListParam{" +
+                "in=" + in +
+                '}';
+    }
 }
